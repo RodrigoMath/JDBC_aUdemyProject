@@ -51,6 +51,7 @@ public class ConsultarPessoas2 {
 		else {
 			System.out.println("Busca inválida, tente novamente.");
 		}
+		
 
 	}
 

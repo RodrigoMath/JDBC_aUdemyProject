@@ -16,7 +16,7 @@ public class NovaPessoa {
 		Connection conexao = FabricaDeImport.getConnection();
 		String sql = " INSERT INTO pessoas (name) values (?)";
 		PreparedStatement stmt = conexao.prepareStatement(sql);
-		stmt.setString(1, name);
+		stmt.setString(1, sql);
 		stmt.execute();
 
 		System.out.println("Pessoa incluída com sucesso!");
